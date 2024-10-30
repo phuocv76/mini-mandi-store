@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories_explores",
+  "info": {
+    "singularName": "categories-explore",
+    "pluralName": "categories-explores",
+    "displayName": "Categories explore",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryExploreId": {
+      "type": "uid",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "categoryId": {
+      "type": "string"
+    }
+  }
+}

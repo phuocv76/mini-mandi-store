@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_mini_mandis",
+  "info": {
+    "singularName": "products-mini-mandi",
+    "pluralName": "products-mini-mandis",
+    "displayName": "Products-Mini-Mandi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productId": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "salePrice": {
+      "type": "decimal"
+    },
+    "nutritions": {
+      "type": "string"
+    },
+    "by": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "categoryId": {
+      "type": "string"
+    },
+    "totalQuantity": {
+      "type": "integer"
+    },
+    "sold": {
+      "type": "integer"
+    }
+  }
+}
